@@ -1,0 +1,75 @@
+body
+{
+    background-color: rgb(240, 240, 245);
+}
+.main, .form
+{
+    max-width: 60vw;
+    margin: auto;
+    background-color: white;
+    padding: 16px;
+    margin-top: 95px;
+    padding-top: 1px;
+    border-radius: 9px;
+}
+input{
+    width: 100%;
+}
+td, th
+{
+    width: 160px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+}
+.para{
+    border-width: 1px;
+    border-color: black;
+}
+table
+{
+    border-collapse: collapse;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left : 0;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-right: 10px;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+a:hover{
+    color: blue;
+}
+.link
+{
+    text-decoration: none;
+    color: white
+}
+.right{
+    display: flex;
+}
+.right > div{
+    padding-right: 24px;
+}
+.submit{
+    margin-top: 15px;
+    width: 101%;
+    color: white;
+    background-color: black;
+    font-size: 17px;
+    border-radius: 3px;
+    padding:4px;
+}
+.submit:hover{
+    background-color: darkred;
+}
